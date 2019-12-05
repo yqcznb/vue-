@@ -28,7 +28,7 @@ const router = new Router({
       
     },
     {
-      path: '/shop',
+      path: '/shop/:num',
       name: 'shop',
       component: shop
       

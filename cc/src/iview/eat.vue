@@ -17,6 +17,7 @@ export default{
     return{
         btn:"点饭",
         timeId:"",
+        message:"",
         arrs:[
            {name:"小可"},{name:"妈妈的口味菜"},{name:"大盘鸡"},{name:"乐而美"},{name:"美味盖浇饭"},
            {name:"铁板饭"},{name:"水煮房"},{name:"黄焖鸡"},{name:"一河洛面"},{name:"自选"},
@@ -50,11 +51,16 @@ export default{
             this.btn="点饭";
              for (var j = 0; j < this.arrs.length; j++) {
                    if( this.$refs.box[j].style.background!=""){
+                     this.message = this.arrs[j].name;
                           this.$dialog.confirm({
                               title: '点不点？',
                               message: this.arrs[j].name
                             }).then(() => {
-                              this.$router.push("/shop");
+              
+                              this.$router.push({name:'shop',params:{num:this.message}});
+                              
+                              
+                              
                             }).catch(() => {
                               // on cancel
                            });
