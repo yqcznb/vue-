@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import Tabbar from "@/iview/footer.vue"
+import Tabbar from "@/iview/footer.vue"
 export default{
   name:"eat",
   data(){
@@ -48,6 +48,18 @@ export default{
             //清除计时器
             clearInterval(this.timeId);
             this.btn="点饭";
+             for (var j = 0; j < this.arrs.length; j++) {
+                   if( this.$refs.box[j].style.background!=""){
+                          this.$dialog.confirm({
+                              title: '点不点？',
+                              message: this.arrs[j].name
+                            }).then(() => {
+                              this.$router.push("/shop");
+                            }).catch(() => {
+                              // on cancel
+                           });
+                   }
+             }
         }
       }
    }

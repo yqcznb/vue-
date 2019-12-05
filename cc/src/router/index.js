@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import login from '@/iview/login.vue'
 import eat from '@/iview/eat.vue'
 import homework from '@/iview/homework.vue'
-
+import shop from '@/iview/shop.vue'
 
 Vue.use(Router)
 
@@ -27,7 +27,12 @@ const router = new Router({
       component: homework
       
     },
-   
+    {
+      path: '/shop',
+      name: 'shop',
+      component: shop
+      
+    },
   ]
 })
 
