@@ -4,6 +4,7 @@ import login from '@/iview/login.vue'
 import eat from '@/iview/eat.vue'
 import homework from '@/iview/homework.vue'
 import shop from '@/iview/shop.vue'
+import '@vant/touch-emulator';
 
 Vue.use(Router)
 

@@ -1,7 +1,7 @@
 <template>
   <div class="eat">
-      <h2>不知道吃什么？</h2>
-      <div class="box">
+      <h2>WHAT FOOD DO YOU WANT TO EAT?</h2>
+      <div class="box" >
         <div class="name" v-for="(arr, index) in arrs" :key="index" ref="box">{{arr.name}}</div>
       </div>
       <van-button type="info" @click="orderFood">{{btn}}</van-button>
@@ -56,11 +56,7 @@ export default{
                               title: '点不点？',
                               message: this.arrs[j].name
                             }).then(() => {
-              
-                              this.$router.push({name:'shop',params:{num:this.message}});
-                              
-                              
-                              
+                              this.$router.push({name:'shop',params:{num:this.message}}); 
                             }).catch(() => {
                               // on cancel
                            });
@@ -85,7 +81,9 @@ export default{
       width: 100px;
       height: 30px;
       float: left;
-      background-color: antiquewhite;
+      background-color: #26a2e0;
+      color: #fff;
+      border-radius: 5px;
       margin-left: 10px;
       margin-top: 10px;
       text-align: center;
@@ -100,5 +98,6 @@ export default{
   }
   h2{
     margin-top: 50px;
+    color: aliceblue
   }
 </style>

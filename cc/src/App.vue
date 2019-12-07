@@ -25,8 +25,9 @@ export default {
   background: url("./assets/img/bg7.jpg");
   background-size: 100% 100%;
   height: 100%;
-  /* position: fixed; */
-  width: 100%
+  width: 100%;
+  /* position: fixed;
+  overflow:scroll; */
 }
 
 </style>

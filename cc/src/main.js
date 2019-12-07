@@ -7,7 +7,7 @@ import Vant from 'vant';
 import axios from 'axios'
 import 'vant/lib/index.css';
 import './assets/js/mock'//此部分引入的是我们所编写的mockjs文档
-
+import '@vant/touch-emulator';
 Vue.use(Vant);
 Vue.prototype.axios = axios
 // Vue.config.productionTip = false
