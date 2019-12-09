@@ -27,45 +27,45 @@
             <van-col span="19">
                   <van-card
                   num="2"
-                  price="2.00"
+                  price="9.00"
                   desc="超级大肉超级多"
                   title="特色鸡腿"
-                  thumb="https://img.yzcdn.cn/vant/t-thirt.jpg"
+                  thumb="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1867297350,551105050&fm=26&gp=0.jpg"
                   />
                   <van-card
                   num="2"
-                  price="2.00"
-                  desc="描述信息"
-                  title="商品标题"
-                  thumb="../assets/img/sw2.jpg"
+                  price="5.00"
+                  desc="有家的味道"
+                  title="月圆月饼"
+                  thumb="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3603293073,2335666727&fm=26&gp=0.jpg"
                   />
                     <van-card
                   num="2"
-                  price="2.00"
-                  desc="描述信息"
-                  title="商品标题"
-                  thumb="../assets/img/sw3.jpg"
+                  price="8.00"
+                  desc="超香超有嚼劲"
+                  title="澳洲腊肉"
+                  thumb="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3335325514,1395789076&fm=26&gp=0.jpg"
                   />
                   <van-card
                   num="2"
-                  price="2.00"
-                  desc="描述信息"
-                  title="商品标题"
-                  thumb="../assets/img/sw4.jpg"
+                  price="10.00"
+                  desc="全校最实惠"
+                  title="巨无霸汉堡"
+                  thumb="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1729239799,2817055105&fm=26&gp=0.jpg"
                   />
                     <van-card
                   num="2"
-                  price="2.00"
-                  desc="描述信息"
-                  title="商品标题"
-                  thumb="../assets/img/sw6.jpg"
+                  price="7.00"
+                  desc="提升你的幸福度"
+                  title="饭后甜点"
+                  thumb="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2636216160,1652126445&fm=26&gp=0.jpg"
                   />
                    <van-card
                   num="2"
-                  price="2.00"
-                  desc="描述信息"
-                  title="商品标题"
-                  thumb="../assets/img/sw5.jpg"
+                  price="6.00"
+                  desc="咬一口爽到离谱"
+                  title="绝味鸡翅"
+                  thumb="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=242186523,2926403330&fm=26&gp=0.jpg"
                   />
              
             </van-col>

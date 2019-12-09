@@ -57,8 +57,7 @@
         <a href="http://39.106.173.77">双人在线火拼俄罗斯</a>
          </div>
         <div class="main">
-            <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=2&num=2" 
-            width="330" height="70" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=2&num=2" width="330" height="70" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
         </div>
         <div class="footer">
             <Tabbar></Tabbar>
