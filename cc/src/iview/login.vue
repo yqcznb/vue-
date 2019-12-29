@@ -13,22 +13,30 @@
                 <tr class="active">
                     <td>第一节：</td>
                     <td>{{one}}</td>
-                    <td><van-button @click="showPopup(one)" round="true" size="mini" color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">添加作业</van-button></td>
+                    <td><van-button @click="showPopup(one)" round="true" size="mini"
+                     color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">
+                     添加作业</van-button></td>
                 </tr>
                 <tr class="success">
                     <td>第二节：</td>
                     <td>{{two}}</td>
-                    <td><van-button @click="showPopup(two)" round="true" size="mini" color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">添加作业</van-button></td>
+                    <td><van-button @click="showPopup(two)" round="true" size="mini" 
+                    color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">
+                    添加作业</van-button></td>
                 </tr>
                 <tr  class="warning">
                     <td>第三节：</td>
                     <td>{{three}}</td>
-                    <td><van-button @click="showPopup(three)" round="true" size="mini" color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">添加作业</van-button></td>
+                    <td><van-button @click="showPopup(three)" round="true" size="mini"
+                     color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">
+                     添加作业</van-button></td>
                 </tr>
                 <tr  class="danger">
                     <td>第四节：</td>
                     <td>{{four}}</td>
-                    <td><van-button @click="showPopup(four)" round="true" size="mini" color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">添加作业</van-button></td>
+                    <td><van-button @click="showPopup(four)" round="true" size="mini"
+                     color="linear-gradient(to right, #4bb0ff, rgb(26, 228, 204))">
+                     添加作业</van-button></td>
                 </tr>
             </tbody>
         </table>
@@ -57,7 +65,9 @@
         <a href="http://39.106.173.77">双人在线火拼俄罗斯</a>
          </div>
         <div class="main">
-            <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=2&num=2" width="330" height="70" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            <iframe name="weather_inc" src="http://i.tianqi.com/index.php?
+            c=code&id=2&num=2" width="330" height="70" frameborder="0" 
+            marginwidth="0" marginheight="0" scrolling="no"></iframe>
         </div>
         <div class="footer">
             <Tabbar></Tabbar>

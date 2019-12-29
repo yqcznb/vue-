@@ -1,7 +1,7 @@
 {
   "name": "cc",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A 课程表 Vue.js project",
   "author": "",
   "private": true,
   "scripts": {
